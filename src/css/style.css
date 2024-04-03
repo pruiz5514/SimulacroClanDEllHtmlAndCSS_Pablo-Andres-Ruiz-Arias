@@ -28,7 +28,7 @@ html{
 .header{
     display: flex;
     width: 100%;
-    height: 75px;
+    height: 65px;
     background-color: var(--verdeBosque);
     color: var(--blanco);
 }
@@ -59,4 +59,72 @@ html{
 .navList li a{
     text-decoration: none;
     color: var(--blanco);
+}
+
+/* EStilos del main */
+.main{
+    width: 100%;
+    height: auto;
+    background-color: var(--beige);
+}
+
+
+/* Estilos de la seccion principal imagen  */
+.principalImgSection{
+    width: 100%;
+    height: 400px;
+    background-image: url('./../../public/img/imagen1.webp');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.principalImgSectionText{
+    width: 70%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.principalImgSectionText h2{
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+.principalImgSectionText p{
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Seccion del parque Arvi  */
+
+.parqueArvi-container{
+    width: 100%;
+    height: 600px;
+    padding: 30px 20px;
+}
+
+.leftSection-park{
+    width: 35%;
+    height: 400px;
+}
+
+.parkText-container{
+    text-align: center;
+}
+
+.parkText-container h3, h4{
+    margin-bottom: 10px;
+    color: var(--verdeBosque);
+}
+
+.parkText-container p{
+    margin-bottom: 10px;
 }
