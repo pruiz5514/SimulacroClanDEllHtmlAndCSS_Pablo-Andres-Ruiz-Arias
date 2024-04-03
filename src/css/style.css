@@ -103,7 +103,7 @@ html{
     text-align: center;
 }
 
-/* Seccion de los lugares ecologicos */
+/* Seccion de los lugares ecologicos sirve tanto para el parque arvi como para el jardin botanico */
 
 
 /* Parque Arvi */
@@ -164,7 +164,7 @@ html{
     border-radius: 8px;
 }
 
-/* Jardin */
+/* Jardin (se ajustan el tamaño de imagenes) */
 
 .otherImg-jardin{
     width: 550px;
