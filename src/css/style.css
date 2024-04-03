@@ -171,3 +171,104 @@ html{
     height: 295px;
     border-radius: 8px;
 }
+
+/* Estilos de normas */
+
+.normas-container{
+    width: 100%;
+    height: auto;
+    padding: 0 25px;
+}
+
+.normasText-container{
+    width: 55%;
+    height: auto;
+    margin: 0 auto;
+    color: var(--verdeBosque);
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+
+.normasText-container h3{
+    font-size: 24px;
+}
+
+/* Estilos de las cartas de las normas */
+.cards-container{
+    width: 85%;
+    height: auto;
+    margin: 0 auto;
+    padding-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 150px;
+    background-color: var(--verdeClaro);
+    text-align: center;
+    justify-content: center;
+    border-radius: 100px;
+    padding: 20px;
+}
+
+.cardIcon{
+    color: var(--blanco);
+    font-size: 44px;
+}
+
+.cardText{
+    color: var(--blanco);
+}
+
+/* Estilos del footer */
+.footer{
+    display: flex;
+    width: 100%;
+    height: 120px;
+    background-color: var(--verdeBosque);
+}
+
+.left-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+    padding: 10px 50px;
+}
+
+.alcadiaImg{
+    width: 80px;
+    margin-bottom: 5px;
+}
+
+.listaRedes{
+    display: flex;
+    list-style: none;
+    gap: 12px;
+}
+
+.listaRedes li a {
+    text-decoration: none;
+    color: var(--blanco);
+    font-size: 18px;
+}
+
+.right-footer{
+    display: flex;
+    width: 50%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.footerText{
+    color: var(--blanco);
+}
