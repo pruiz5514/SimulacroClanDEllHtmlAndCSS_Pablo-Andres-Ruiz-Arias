@@ -1,0 +1,62 @@
+/* Nombre Completo: Pablo Andres Ruiz Arias
+Clan: Nombre clan
+fecha: 03/04/2024 */
+
+@import url('https://fonts.googleapis.com/css2?family=Arbutus&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --verdeBosque: #1A5126;
+    --verdeClaro: #8FBF5F;
+    --azulClaro: #5CB3FF;
+    --beige: #F3E9DC;
+    --marronTierra: #B18F6A;
+    --blanco: #FFFFFF;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: "Montserrat", sans-serif;
+}
+
+/* Estilos del header */
+
+.header{
+    display: flex;
+    width: 100%;
+    height: 75px;
+    background-color: var(--verdeBosque);
+    color: var(--blanco);
+}
+
+.rightHeader{
+    display: flex;
+    width: 50%;
+    height: 100%;
+    align-items: center;
+    padding-left: 30px;
+}
+
+.leftHeader{
+    display: flex;
+    width: 50%;
+    height: 100%;
+    padding-right: 30px;
+    align-items: center;
+    justify-content: end;
+}
+
+.navList{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+.navList li a{
+    text-decoration: none;
+    color: var(--blanco);
+}
